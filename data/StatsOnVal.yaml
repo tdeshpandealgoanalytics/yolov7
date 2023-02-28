@@ -1,0 +1,8 @@
+
+val: /app/yolov7-custom/data/val
+# number of classes
+nc: 13
+
+# class names
+names: [ 'person', 'supine person',  'helmet', 'no helmet', 'car',  'bicycle', 'truck', 'motorbike', 
+         'backpack','handbag', 'gate_open',  'gate_close',  'fork_lift']

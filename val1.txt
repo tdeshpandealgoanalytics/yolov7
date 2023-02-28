@@ -1,0 +1,2 @@
+/home/aapl17/aksha_refine/aksha_training_scratch/darknet/data/val/images/c4_09_29_43.544387.jpg
+/home/aapl17/aksha_refine/aksha_training_scratch/darknet/data/val/images/c9_16_11_50.269113.jpg
