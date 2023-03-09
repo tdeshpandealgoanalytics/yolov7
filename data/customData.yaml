@@ -1,6 +1,6 @@
-train: /app/yolov7-custom/data/Train
-test: /app/yolov7-custom/data/Test
-val: /app/yolov7-custom/data/val
+train: /yolov7/data/Train
+test: /yolov7/data/Test
+val: /yolov7/data/val
 
 # number of classes
 nc: 13
