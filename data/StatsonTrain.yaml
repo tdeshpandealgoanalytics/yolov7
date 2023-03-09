@@ -1,5 +1,5 @@
 
-val: /app/yolov7-custom/data/Train
+val: /yolov7/data/Train
 # number of classes
 nc: 13
 
