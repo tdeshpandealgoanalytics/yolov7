@@ -1,6 +1,6 @@
 #train: ./data/ValidationData
 #test: ./data/val
-val: ./app/yolov7-custom/data/Test
+val: /app/yolov7-custom/data/Test
 #val: ./data/train
 #val: ./data/test1
 
