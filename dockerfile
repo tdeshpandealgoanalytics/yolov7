@@ -20,8 +20,8 @@ RUN git clone https://github.com/tdeshpandealgoanalytics/yolov7.git
 
 
 
-RUN pip install -r yolov7/requirements.txt  -r yolov7/requirements_azure.txt
-
+RUN pip install -r yolov7/requirements.txt  
+RUN pip install -r yolov7/requirements_azure.txt
 
 
 
