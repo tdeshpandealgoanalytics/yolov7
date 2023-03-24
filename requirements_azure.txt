@@ -1,0 +1,6 @@
+aiohttp
+azure-functions
+azure-data-tables
+azure-servicebus
+azure-storage-blob
+azure-identity
