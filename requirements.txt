@@ -39,3 +39,10 @@ thop  # FLOPs computation
 # pycocotools>=2.0  # COCO mAP
 # roboflow
 
+
+aiohttp
+azure-functions
+azure-data-tables
+azure-servicebus
+azure-storage-blob
+azure-identity
