@@ -7,7 +7,6 @@ RUN apt-get install -y python3-pip python3-dev libsm6 libxext6 libxrender-dev
 
 
 
-
 RUN \
 	apt-get install -y \
 	wget \
@@ -16,15 +15,21 @@ RUN \
 	git 
 
 
+RUN git clone https://github.com/tdeshpandealgoanalytics/yolov7.git
 
 
-COPY requirements.txt ./
 
 
-RUN pip install -r requirements.txt
+RUN pip install -r yolov7/requirements.txt
 
-WORKDIR /app/yolov7-custom
-CMD [ "python", "./pythonTrainingScript.py"]
+
+
+
+WORKDIR /yolov7
+
+
+
+ENTRYPOINT [ "python", "./pythonTrainingScript.py"]
 
 
 
